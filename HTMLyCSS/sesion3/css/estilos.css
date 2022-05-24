@@ -1,0 +1,15 @@
+h1, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nombre, #frase{
+    color: dimgray;
+}
+
+.texto-principal{
+    font-size: 2rem;
+}
+
+.encabezado{
+    margin-bottom: 3rem;
+}
