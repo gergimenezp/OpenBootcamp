@@ -62,8 +62,6 @@ h3{
     width: 75%;
 }
 
-
-
 .google-btn span {
     color: white;
     font-weight: 500;
@@ -159,7 +157,7 @@ label input:hover {
     box-shadow: 0 0 4px #eb50ff4f;
 }
 label input:focus {
-    background-color: white;
+    background-color: #746a74;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px #eb50ff4f;
 }
