@@ -1,0 +1,17 @@
+.boton{
+    width: 150px;
+    font-weight: bolder;
+}
+
+.boton p::before{
+    content: 'Pasa por encima';
+}
+
+.boton:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 87, 4);
+}
+
+.boton:hover p::before{
+    content: '¡Hecho!'
+}
