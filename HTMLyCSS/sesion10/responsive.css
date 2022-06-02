@@ -1,0 +1,34 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.myNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+    gap: 1rem;
+    border: 3px solid rgb(3, 207, 163);
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    border: 3px solid rgb(235, 142, 2);
+}
+
+@media (max-width: 640px){
+    .contenedor{
+        flex-direction: column;
+    }
+
+    .myNav{
+        order: 2;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
