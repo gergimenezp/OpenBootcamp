@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container my-4">
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Zona de riesgo</h1>
+                <p class="col-md-8 fs-4">Ahora qu etengo tu atención, te informo que debajo hay un botón. Cuidado con
+                    presionarlo.</p>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Oprime a tu riesgo
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">No has podido contenerte...</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Este es un aviso de que has oprimido un botón. Ahora que ya lo has hecho, sal de aquí
+                                por abajo...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sal, por
+                                    aquí</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <form action="">
+            <div class="mb-3">
+                <label for="nameInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nameInput"
+                    placeholder="Tu nombre. Completo. Sí, también el apellido">
+            </div>
+            <div class="mb-3">
+                <label for="phoneImput" class="form-label">Teléfono</label>
+                <input type="number" class="form-control" id="phoneImput"
+                    placeholder="Tu teléfono. Sin el +, solo números">
+            </div>
+            <div class="mb-3">
+                <label for="messageTextArea" class="form-label">Escribe tu mensaje</label>
+                <textarea class="form-control" id="messageTextArea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <div class="container my-4">
+        <div class="card border-danger mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title fw-bolder">Gerardo Gimenez Ponce</h5>
+                <p class="card-text text-danger">Profesional proactivo en búsqueda de nuevos desafíos, por eso decidí
+                    reconvertir mi carrera administrativa y orientarla al desarrollo front end. <br />
+                    Como programador destaco por mi respeto e interés por el diseño, ya que empecé mi carrera desde
+                    dicha área.</p>
+            </div>
+            <div class="card-footer bg-transparent border-danger">gerardo.gimenezponce@gmail.com</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
