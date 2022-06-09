@@ -1,0 +1,11 @@
+let nombre = "Gerardo";
+let apellido = "Gimenez Ponce";
+let estudiante = nombre.concat(" ", apellido);
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let largo = estudiante.length;
+let primeraLetra = estudiante[0];
+let ultimaLetra = estudiante.charAt(20);
+let sinEspaciosExternos = estudiante.trim();
+let sinEspaciosInternos = estudiante.replace(/ /g, "");
+let incluye = estudiante.includes(nombre);
